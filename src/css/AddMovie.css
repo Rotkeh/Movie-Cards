@@ -1,0 +1,36 @@
+.add-movie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1em;
+  column-gap: 0.5em;
+  border: 2px solid white;
+  padding: 2em 1em;
+  border-radius: 1em;
+  label {
+    grid-column: 1/ 2;
+    text-align: left;
+  }
+  #movie-title {
+    grid-column: 2 / 5;
+  }
+  #movie-rating {
+    grid-column: 2 / 4;
+  }
+  #movie-genre {
+    grid-column: 2 / 4;
+  }
+  #movie-description {
+    grid-column: 2 / 5;
+    height: 5rem;
+  }
+  .clear-movies-button {
+    grid-column: 2 / 3;
+  }
+  .add-movies-button {
+    grid-column: 4 / 5;
+  }
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}

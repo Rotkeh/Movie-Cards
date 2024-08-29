@@ -1,0 +1,23 @@
+.movie-card {
+  border: 2px solid white;
+  max-width: 300px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  padding: 1em;
+  border-radius: 1em;
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    h2,
+    p {
+      margin: 0;
+    }
+  }
+  .genre {
+    text-align: right;
+    margin: 0;
+  }
+  .description {
+    margin-bottom: 0;
+  }
+}
